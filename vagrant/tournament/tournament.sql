@@ -5,8 +5,7 @@
 -- psql tournament
 
 CREATE TABLE players  ( id serial primary key,
-                        name varchar (50) not null,
-                        created_at timestamp default current_timestamp );
+                        name varchar (50) not null );
 
 CREATE TABLE matches  ( id serial primary key,
                         winner_id int,
