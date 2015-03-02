@@ -17,8 +17,8 @@ To run the test cases follow this steps:
 - `cd /vagrant/tournament`(To navigate to the project directory).
 - Connect to PostgreSQL console by typing `psql`.
 - In order to make sure you'll get a fresh database created, type `drop database tournament ;`.
-- Create the tournament the database schema by typing `create database tournament ;`.
+- Create the tournament database schema by typing `create database tournament ;`.
 - To connect to the tournament database type `\c tournament`.
-- Create the project table by typing  `\i tournament.sql`.
+- Create the tables for the tournament schema by typing  `\i tournament.sql`.
 - Type `\q` to exit the PostgreSQL console.
 - You are now ready to run the test cases for the tournament project, simply type `python tournament_test.py`.
